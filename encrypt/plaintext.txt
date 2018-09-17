@@ -1,0 +1,7 @@
+Your previous assignment was to build an AppEngine app that stored a few things and returned them from a JSON-enabled endpoint when requested. You also have some mutating functions that allow you to add and (optionally, until now) delete existing events.
+
+For this assignment, you will add authentication so that all of the events are tied to one and only one user. That user must be logged in to see their events. This means you will create a registration form, a login form, and send and receive session cookies.
+
+While it is tempting to use the built-in User class (in Python, at least, other languages have similar facilities), for this assignment you will be rolling your very own authentication. If a person is not logged in, they will be offered a login screen, and if they are not registered, you will provide a way for them to sign up with their own chosen username and password.
+
+Because your existing data is not attached to a user, you will need to create a user for yourself and then migrate the existing data over to it. Migrating data is part of the assignment, so you will need to demonstrate code that does the migration, along with a written strategy for how it is used.
