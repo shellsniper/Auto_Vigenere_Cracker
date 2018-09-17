@@ -18,4 +18,5 @@ Usage:
 # step 2: Finding key lengths and Full cryptanalysis
 ## run:
 * ./vigenere-keylength <ciphertext filename>
+		
 		>- run full cryptanalysis to figure out the possible key length, possbile key and decrypted ciphertext
