@@ -10,6 +10,7 @@ Usage:
 * ./vigenere-encrypt <encipherment key> <plaintext filename> >> <ciphertext filename>
 		
 		* encrypt plainetext file with given key and output as a file in the vigenere-encrypt folder
+![](auto_crack1.gif)
 		
 * ./vigenere-decrypt <decipherment key> <ciphertext filename>
 		
