@@ -17,6 +17,7 @@ Usage:
 * ./vigenere-decrypt <decipherment key> <ciphertext filename>
 		
 		* decrypt ciphertext file with given key in the vigenere-encrypt folder
+	![](screenshot2.gif)
 
 # step 2: Finding key lengths and Full cryptanalysis
 ## run:
