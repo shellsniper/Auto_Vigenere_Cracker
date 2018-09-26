@@ -33,9 +33,10 @@ run:
 # step 1:
 
 ## run:
-* ./vigenere-encrypt <encipherment key> <plaintext filename> > <ciphertext filename>
+* ./vigenere-encrypt <encipherment key> <plaintext filename> >> <ciphertext filename>
 		
 		* encrypt plainetext file with given key and output as a file in the vigenere-encrypt folder
+	![](auto_cracker1.gif)
 		
 * ./vigenere-decrypt <decipherment key> <ciphertext filename>
 		
