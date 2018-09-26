@@ -24,4 +24,5 @@ Usage:
 * ./vigenere-keylength <ciphertext filename>
 		
 		>- run full cryptanalysis to figure out the possible key length, possbile key and decrypted ciphertext
+	![](screenshot3.gif)
 
