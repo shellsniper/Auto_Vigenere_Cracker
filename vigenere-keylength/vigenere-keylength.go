@@ -178,7 +178,7 @@ func guesskey(substringSlice []string) string {
 		biggest := scoreSlice[0]
 		var letter string
 		for index, v := range scoreSlice {
-			if v > biggest {
+			if v >= biggest {
 				biggest = v
 				letter = string(index + 65)
 			}
@@ -203,6 +203,7 @@ func main() {
 		//fmt.Println(str)
 		//fmt.Println(calcIndexOfCoincidence(str))
 		//fmt.Println(possibleKeyLength(str))
+
 		for _, length := range possibleKeyLength(str) {
 			substring := transpose(str, length)
 			possibleKey = guesskey(substring)
